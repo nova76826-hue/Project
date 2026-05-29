@@ -41,36 +41,51 @@
 <body>
     <div class="center">
         <div class="control" style="border-color: #133951;">
-            <a href="https://nova76826-hue.github.io/Read/" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/69d3/i/7/83/68df18e537ac0.jpg" alt="a">Traces of the Moon</a>
+            <a href="#" onclick="checkPassword('https://nova76826-hue.github.io/Read/')" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/69d3/i/7/83/68df18e537ac0.jpg" alt="a">Traces of the Moon</a>
         </div>
     
         <div class="control" style="border-color: #DD9933;">
-            <a href="https://nova76826-hue.github.io/Shop/" style="color: #DD9933; text-decoration: none;"><img src="https://static.comix.to/48fe/i/a/3a/68e1247f370d2.jpg" alt="a">The Script Shop of Dream</a>
+            <a href="#" onclick="checkPassword('https://nova76826-hue.github.io/Shop/')" style="color: #DD9933; text-decoration: none;"><img src="https://static.comix.to/48fe/i/a/3a/68e1247f370d2.jpg" alt="a">The Script Shop of Dream</a>
         </div>
 
         <div class="control" style="border-color: #133951;">
-            <a href="https://nova76826-hue.github.io/Apple/" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/518d/i/a/d6/68df787986e01.jpg" alt="a">His Apple</a>
+            <a href="#" onclick="checkPassword('https://nova76826-hue.github.io/Apple/')" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/518d/i/a/d6/68df787986e01.jpg" alt="a">His Apple</a>
         </div>
 
         <div class="control" style="border-color: #DD9933;">
-            <a href="" style="color: #DD9933; text-decoration: none;"><img src="https://static.comix.to/8196/i/a/34/68de897bd0d82.jpg" alt="a">Demon,don't kiss me</a>
+            <a href="#" onclick="checkPassword('')" style="color: #DD9933; text-decoration: none;"><img src="https://static.comix.to/8196/i/a/34/68de897bd0d82.jpg" alt="a">Demon,don't kiss me</a>
         </div>
 
         <div class="control" style="border-color: #133951;">
-            <a href="" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/6dad/i/7/be/68e6127d91868.jpg" alt="a">Be Jealous</a>
+            <a href="#" onclick="checkPassword('')" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/6dad/i/7/be/68e6127d91868.jpg" alt="a">Be Jealous</a>
         </div>
 
         <div class="control" style="border-color: #DD9933;">
-            <a href="" style="color: #DD9933; text-decoration: none;"><img src="https://static.comix.to/508c/i/d/c6/68e11b8ee3de5.jpg" alt="a">Back to Spring</a>
+            <a href="#" onclick="checkPassword('')" style="color: #DD9933; text-decoration: none;"><img src="https://static.comix.to/508c/i/d/c6/68e11b8ee3de5.jpg" alt="a">Back to Spring</a>
         </div>
 
         <div class="control" style="border-color: #133951;">
-            <a href="" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/e73d/i/0/9f/68e4b1535172d.jpg" alt="a">Almighty Royal Sister</a>
+            <a href="#" onclick="checkPassword('')" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/e73d/i/0/9f/68e4b1535172d.jpg" alt="a">Almighty Royal Sister</a>
         </div>
         
         <div class="control" style="border-color: #133951;">
-            <a href="" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/6723/i/3/8c/68e08cb123d85.jpg" alt="a">Flowers in the Secret Place</a>
+            <a href="#" onclick="checkPassword('')" style="color: #133951; text-decoration: none;"><img src="https://static.comix.to/6723/i/3/8c/68e08cb123d85.jpg" alt="a">Flowers in the Secret Place</a>
         </div>
     </div>
+<script>
+    function checkPassword(link)
+    {
+        let password = prompt("Enter Password:");
+
+        if(password === "nova28")
+        {
+            window.location.href = link;
+        }
+        else
+        {
+            alert("Wrong Password!");
+        }
+    }
+</script>
 </body>
 </html>   
